@@ -1,7 +1,7 @@
-# Compiled class file
+# Compiled Java class files
 *.class
 
-# Log file
+# Java logs
 *.log
 
 # BlueJ files
@@ -10,7 +10,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package files
 *.jar
 *.war
 *.nar
@@ -19,7 +19,7 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
 
@@ -31,5 +31,27 @@ __pycache__/
 .venv/
 .env
 
-# Archivos de logs
+# Archivos de logs generales
 *.log
+
+# Configuración de Visual Studio Code
+.vscode/
+.settings/
+workspace.xml
+
+# Configuración de IntelliJ IDEA
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+# Dependencias instaladas en Python
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Archivos innecesarios en Java
+target/
+bin/
