@@ -55,3 +55,43 @@ build/
 # Archivos innecesarios en Java
 target/
 bin/
+# Archivos generados automáticamente
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Configuración de editores y entornos de desarrollo
+.vscode/       # Visual Studio Code
+.idea/         # IntelliJ IDEA
+*.iml          # Archivos de configuración de IntelliJ
+workspace.xml  # Configuración específica del proyecto en IntelliJ
+
+# Archivos innecesarios en Windows y MacOS
+Thumbs.db
+.DS_Store
+
+# Archivos de compilación en Java
+*.class
+*.jar
+*.war
+
+# Caché y archivos temporales en Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependencias instaladas en Python
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Configuración de entornos virtuales en Python
+.venv/
+.env
+
+# Binarios generados en Java
+target/
+bin/
