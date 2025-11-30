@@ -58,3 +58,14 @@ Personalización de la línea de comandos para mejorar la productividad y la est
 | **Git**       | Configurado en WSL (preinstalado) | git config --global user.name "..."             |
 | **SSH**       | Llave ed25519 para GitHub         | ssh-keygen -t ed25519 -C "tu_email@ejemplo.com" |
 | **SSH Agent** | Inicio automático y `ssh-add`     | eval "$(ssh-agent -s)"                          |
+
+## 🚀 Alias de Terminal (Flujo de Trabajo Rápido)
+
+Para acelerar el inicio de proyectos Python y la gestión de dependencias, se han configurado los siguientes alias en el archivo de configuración del shell (`~/.zshrc` o `~/.bashrc`).
+
+|    Alias     |           Comando Ejecutado           |                                                       Descripción                                                       |
+| :----------: | :-----------------------------------: | :---------------------------------------------------------------------------------------------------------------------: |
+|     `gh`     |             `cd ~/GitHub`             |                            **Redirige** al contenedorde los repositorio de proyectos GitHub                             |
+|  `pycreate`  |        `python3 -m venv .venv`        | **Crea** la carpeta del entorno virtual (`.venv`) en el directorio actual. Usar solo en la inicialización del proyecto. |
+| `pyactivate` |      `source .venv/bin/activate`      |                           **Activa** el entorno virtual para usar las dependencias aisladas.                            |
+|   `ginit`    | `cp ~/.gitignore_global ./.gitignore` |                      Inicializa el archivo `.gitignore` copiando las reglas de exclusión globales.                      |
