@@ -37,6 +37,7 @@ Personalización de la línea de comandos para mejorar la productividad y la est
 | Herramienta | Tipo            | Ubicación | Comando de Instalación (apt)     |
 | :---------- | :-------------- | :-------- | :------------------------------- |
 | **MySQL**   | Servidor DB     | WSL       | sudo apt install mysql-server    |
+| **PostgreSQL** | Servidor DB/ | WSL       | sudo apt install postgresql postgresql-contrib         |
 | **SQLite3** | Servidor DB/CLI | WSL       | sudo apt install sqlite3         |
 | **DBeaver** | Cliente Gráfico | WSLg      | Instalado y ejecutándose en WSLg |
 
