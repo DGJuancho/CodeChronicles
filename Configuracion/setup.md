@@ -27,19 +27,20 @@ Personalización de la línea de comandos para mejorar la productividad y la est
 
 ### 3. Lenguajes de Programación y SDKs
 
-| Lenguaje   | Versión Instalada | Paquetes Clave             | Comando de Instalación (apt)                      |
-| :--------- | :---------------- | :------------------------- | :------------------------------------------------ |
-| **Python** | 3.12.3 / Pip 24.0 | python3, pip, python3-venv | sudo apt install python3 python3-pip python3-venv |
-| **Java**   | OpenJDK 17 (LTS)  | openjdk-17-jdk             | sudo apt install openjdk-17-jdk                   |
+| Lenguaje    | Versión Instalada | Paquetes Clave             | Comando de Instalación / Gestión                                                                                    |
+| :---------- | :---------------- | :------------------------- | :------------------------------------------------------------------------------------------------------------------ |
+| **Python**  | 3.12.3 / Pip 24.0 | python3, pip, python3-venv | sudo apt install python3 python3-pip python3-venv                                                                   |
+| **Java**    | OpenJDK 17 (LTS)  | openjdk-17-jdk             | sudo apt install openjdk-17-jdk                                                                                     |
+| **Node.js** | LTS (vía NVM)     | nvm, node, npm             | curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh \| bash <br> **Luego:** `nvm install --lts` |
 
 ### 4. Bases de Datos y Clientes
 
-| Herramienta | Tipo            | Ubicación | Comando de Instalación (apt)     |
-| :---------- | :-------------- | :-------- | :------------------------------- |
-| **MySQL**   | Servidor DB     | WSL       | sudo apt install mysql-server    |
-| **PostgreSQL** | Servidor DB/ | WSL       | sudo apt install postgresql postgresql-contrib         |
-| **SQLite3** | Servidor DB/CLI | WSL       | sudo apt install sqlite3         |
-| **DBeaver** | Cliente Gráfico | WSLg      | Instalado y ejecutándose en WSLg |
+| Herramienta    | Tipo            | Ubicación | Comando de Instalación (apt)                   |
+| :------------- | :-------------- | :-------- | :--------------------------------------------- |
+| **MySQL**      | Servidor DB     | WSL       | sudo apt install mysql-server                  |
+| **PostgreSQL** | Servidor DB/    | WSL       | sudo apt install postgresql postgresql-contrib |
+| **SQLite3**    | Servidor DB/CLI | WSL       | sudo apt install sqlite3                       |
+| **DBeaver**    | Cliente Gráfico | WSLg      | Instalado y ejecutándose en WSLg               |
 
 ---
 
